@@ -19,7 +19,6 @@ body {
   line-height: 1.6;
 }
 
-
 .container {
   margin: 0 auto;
   max-width: 117rem;
@@ -63,11 +62,9 @@ heading-primary-center {
   align-self: center;
 }
 
-
 .section-header {
   margin-bottom: 10rem;
 }
-
 
 .navi {
   align-items: center;
@@ -126,7 +123,6 @@ heading-primary-center {
 .navi-home {
   color: #ff5400;
 }
-
 
 .hero {
   background: linear-gradient(
@@ -252,7 +248,6 @@ heading-primary-center {
   width: 100%;
 }
 
-
 .section-destination {
   margin-bottom: 10rem;
 }
@@ -326,7 +321,6 @@ heading-primary-center {
   grid-column: 6 / 11;
 }
 
-
 .section-services {
   margin-bottom: 10rem;
 }
@@ -386,11 +380,11 @@ heading-primary-center {
   text-transform: uppercase;
   margin: 0;
 }
-.section-reviw{
+.section-reviw {
   margin-bottom: 10rem;
 }
 
-.reviews{
+.reviews {
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
@@ -398,20 +392,20 @@ heading-primary-center {
   margin-top: 1rem;
 }
 
-.first-row{
+.first-row {
   display: flex;
   justify-content: space-between;
   margin: 1.25rem;
 }
 
-  .review {
-    width: 47%;
-    margin-bottom: 1.25rem;
-    padding: 1rem;
-    background-color: rgba(41, 206, 246, 0.05);
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
+.review {
+  width: 47%;
+  margin-bottom: 1.25rem;
+  padding: 1rem;
+  background-color: rgba(41, 206, 246, 0.05);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
 .section-discount {
   margin-bottom: 10rem;
@@ -488,7 +482,6 @@ heading-primary-center {
   font-size: 2rem;
 }
 
-
 .section-video {
   margin-bottom: 10rem;
 }
@@ -528,7 +521,6 @@ heading-primary-center {
   width: 100%;
 }
 
-
 .section-newsletter {
   margin-bottom: 10rem;
 }
@@ -552,12 +544,12 @@ heading-primary-center {
 .newsletter-input {
   border-radius: 0.5rem;
   border: 0;
-  color:  rgba(19, 19, 24, 0.30);
+  color: rgba(19, 19, 24, 0.3);
   line-height: normal;
   outline: 0;
   padding: 1.6rem 1rem;
   text-align: left;
-background: rgba(19, 19, 24, 0.05);
+  background: rgba(19, 19, 24, 0.05);
 }
 
 .newsletter-btn {
@@ -588,8 +580,6 @@ background: rgba(19, 19, 24, 0.05);
   bottom: 7rem;
   transform: rotate(-30deg);
 }
-
-
 
 .section-footer {
   background-color: #eeeeee;
@@ -637,7 +627,178 @@ background: rgba(19, 19, 24, 0.05);
 .footer-copy {
   text-transform: capitalize;
 }
-.copyrights{
+.copyrights {
   max-width: 2rem;
   max-height: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 55%;
+  }
+  .container {
+    margin: 0 auto;
+    max-width: 117rem;
+    padding: 1.5rem;
+  }
+
+  .heading-primary {
+    font-size: 2rem;
+  }
+
+  .section-header {
+    margin-bottom: 3rem;
+  }
+
+  .navi {
+    margin: 2rem 0;
+  }
+
+  .logo {
+    max-width: 4rem;
+  }
+
+  .logo-text {
+    font-size: 3rem;
+  }
+
+  .navi-list {
+    display: none;
+  }
+
+  .mobile-navi {
+    display: block;
+  }
+
+  .hero {
+    gap: 1rem;
+    height: 88vh;
+    padding: 1.5rem;
+  }
+
+  .hero-heading {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .hero-form {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-form-container {
+    width: 80%;
+  }
+
+  .hero-form-where,
+  .hero-form-when,
+  .hero-form-type,
+  .hero-form-btn {
+    width: 100%;
+  }
+
+  .section-popular {
+    margin-bottom: 3rem;
+  }
+
+  .popular {
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .popular-left,
+  .popular-right {
+    width: 100%;
+  }
+
+  .section-destination {
+    margin-bottom: 3rem;
+  }
+
+  .destination-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    width: 100%;
+  }
+
+  .section-services {
+    margin-bottom: 3rem;
+  }
+
+  .services-card-container {
+    margin-top: 2.8rem;
+  }
+
+  .services-card-1 {
+    grid-column: 1/-1;
+  }
+
+  .services-card-2 {
+    grid-column: 1/-1;
+  }
+
+  .services-card-3 {
+    grid-column: 1/-1;
+  }
+  .first-row{
+    flex-direction: column;
+  }
+  .review{
+    width: 95%;
+  }
+
+  .section-discount {
+    margin-bottom: 3rem;
+  }
+
+  .deals-card-container {
+    padding: 2rem;
+  }
+
+  .deals-card {
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .deals-icons-container {
+    flex-wrap: wrap;
+  }
+
+  .section-video {
+    margin-bottom: 3rem;
+  }
+
+  .video {
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .video-left,
+  .video-right {
+    width: 100%;
+  }
+
+
+  .section-newsletter {
+    margin-bottom: 3rem;
+  }
+
+  .newsletter {
+    flex-direction: column;
+  }
+
+  .newsletter-card {
+    width: 80%;
+  }
+
+  .newsletter-img-container {
+    width: 100%;
+    height: 35rem;
+  }
+
+
+  .footer {
+    padding: 5rem;
+  }
 }
